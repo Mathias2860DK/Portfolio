@@ -1,3 +1,8 @@
+/*CSS varibles*/
+:root {
+  --mainColor: #f5ba09;
+  --boxColor: #313552;
+}
 /* Global Properties */
 html {
   scroll-behavior: smooth;
@@ -17,7 +22,7 @@ body {
 }
 .navigation-link:hover {
   text-decoration: none;
-  border-bottom: 2px solid #f5ba09;
+  border-bottom: 2px solid var(--mainColor);
   transition: 0.5s ease;
 }
 .main-container {
@@ -36,20 +41,20 @@ body {
   height: 80vh;
 }
 #about {
-  background: #313552;
+  background: var(--boxColor);
   border-radius: 0.5rem;
 }
 .card {
-  border-bottom: 8px solid #f5ba09;
+  border-bottom: 8px solid var(--mainColor);
 }
 #social-media {
-  background: #313552;
+  background: var(--boxColor);
 }
 .media_link {
   padding: 1rem;
   max-width: 15rem;
   margin-left: 1rem;
-  border: 2px solid #f5ba09;
+  border: 2px solid var(--mainColor);
   border-radius: 0.5rem;
 }
 
